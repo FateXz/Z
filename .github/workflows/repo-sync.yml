@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: sync Asm
-        uses: repo-sync/github-sync@v2
+        uses: repo-sync/github-sync@v2 
         if: env.PAT
         with:
           source_repo: "https://github.com/DJ-clamp/AutoSignMachine.git"
