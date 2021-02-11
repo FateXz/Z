@@ -22,7 +22,7 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/DJ-clamp/AutoSignMachine.git"
-          source_branch: "main"
+          source_branch: "dev"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
 
