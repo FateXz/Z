@@ -32,7 +32,7 @@ jobs:
         with:
           src: github/FateXz
           dst: gitee/anlanprivate
-          static_list: "Z"
+          static_list: "ZU"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           force_update: true
