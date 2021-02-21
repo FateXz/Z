@@ -22,7 +22,7 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/DJ-clamp/AutoSignMachine.git"
-          source_branch: "dev"
+          source_branch: "azmodan"
           destination_branch: "main"
           github_token: ${{ secrets.PAT }}
 
@@ -32,7 +32,7 @@ jobs:
         with:
           src: github/FateXz
           dst: gitee/anlanprivate
-          static_list: "AutoSignMachine"
+          static_list: "Z"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           force_update: true
